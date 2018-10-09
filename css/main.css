@@ -12,6 +12,13 @@ body {
   padding-bottom: 5px;
 }
 
+#mc_embed_signup form {
+    display: block;
+    position: relative;
+    /* text-align: left; took this option out to center the button*/
+    padding: 10px 0 10px 3%;
+}
+
 .about {
   color: white;
   font-family: serif;
