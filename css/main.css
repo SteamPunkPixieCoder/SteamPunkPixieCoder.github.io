@@ -1,0 +1,180 @@
+/*main css for index.html*/
+body {
+  background-image: linear-gradient(black, black, darkred, darkred, gray, gray, darkred, darkred, black, black);
+}
+
+.firstheader {
+  color: white;
+  font-size: 2em;
+  font-family: 'Cinzel Decorative', cursive;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.about {
+  color: white;
+  font-family: serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.name {
+  color: white;
+  padding-bottom: 10px;
+  font-size: 3em;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.sub {
+  color: black;
+}
+
+.studio {
+  font-family: 'Cinzel Decorative', cursive;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.name2 {
+  font-size: 3em;
+  color: black;
+  padding-bottom: 10px; 
+}
+
+p {
+  font-family: serif;
+  font-size: 20px;
+  padding: 10px 5px 10px 5px;
+}
+/*navbar css*/
+.navbar {
+  margin-bottom: 0;
+  background-color: black;
+  border: 0;
+  font-size: 13px;
+  letter-spacing: 2px;
+  opacity: 0.9;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+  color: darkred;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+
+.navbar-nav {
+  margin-top: 20px;
+}
+
+.navbar-nav li a:hover {
+  color: darkred !important;
+}
+
+.navbar-nav li.active a {
+  color: #fff;
+  background-color: #29292c;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.open .dropdown-toggle {
+  color: black !important;
+  background-color: darkred !important;
+}
+
+.open .dropdown-toggle:hover {
+  color: darkred;
+  background-color: black !important;
+}
+
+.dropdown-menu li a {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  padding: 15px 10px 15px 10px;
+}
+
+.dropdown-menu li a:hover {
+  background-color: black;
+}
+/*end of navbar*/
+
+/*start of book your session button*/
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.btn-primary {
+  color: black;
+  background-color: darkred;
+  border-color: black;
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  color: darkred;
+  background-color: black;
+  border-color: darkred;
+}
+/*end of button*/
+
+/*Footer*/
+.footer {
+	margin-bottom: 0;
+  margin-top: 100px;
+  background-color: black;
+  border: 0;
+  font-size: 13px;
+  color: darkred;
+  letter-spacing: 1px;
+  opacity: 0.9;
+  padding: 10px 10px 15px 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/*images below firstheader*/
+img {
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+  transition: all 1s;
+  padding-top: 5px;
+  box-shadow: 4px 4px 5px #888888;
+}
+
+.flex-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+
